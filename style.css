@@ -1,0 +1,136 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    display: flex;
+    width: 95%;
+    height: 10vh;
+    margin: auto;
+    align-items: center;
+}
+
+.logo-container {
+    flex: 1;
+    display: flex;
+}
+
+.logo {
+    margin: 5px;
+    font-size: large;
+}
+
+nav {
+    flex: 3;
+}
+
+.nav-links {
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-link {
+    font-size: 18px;
+    color: rgb(26, 26, 26);
+    text-decoration: none;
+}
+
+.logo-container,
+.nav-links,
+.menu {
+    display: flex;
+}
+
+.search {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.search .input {
+    padding: 0.5rem 1rem;
+    height: 50px;
+    background-color: rgb(221, 221, 221);
+    font-size: 1.2rem;
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.searchBtn {
+    background: none;
+    margin: 0.5rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-container {
+    flex: 0.3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.center {
+    background: #83d0f2;
+    text-align: center;
+    width: 100%;
+    top: 20px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.highlight {
+    background: linear-gradient(to right, rgb(15, 15, 15), rgb(45, 45, 45), rgb(70, 70, 70));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    box-sizing: content-box;
+    color: #fff;
+    padding: 45px;
+    display: inline;
+    font-size: 40px;
+}
+
+.home-features {
+    background: transparent;
+    list-style: none;
+    font-size: 22px;
+    padding: 45px;
+    margin: auto;
+    width: 75%;
+    height: 10vh;
+    box-sizing: content-box;
+    justify-content: space-around;
+    display: flex;
+}
+
+.cta-link {
+    font-weight: inherit;
+    background-color: transparent;
+    color: black;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    text-align: end;
+}
+
+.entry-header{
+    text-align: center;
+    font-size: x-large;
+    color: #333;
+}
